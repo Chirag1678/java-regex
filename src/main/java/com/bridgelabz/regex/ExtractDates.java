@@ -8,7 +8,7 @@ import java.util.regex.Pattern;
 public class ExtractDates {
     public static void main(String[] args) {
         // Regex string to store regex for date
-        String dateRegex = "\\b\\d{2}/\\d{2}/\\d{4}\\b";
+        String dateRegex = "(0[1-9]|[1-2][0-9]|3[0-1])/(0[1-9]|1[0-2])/\\d{4}";
 
         // Create a Scanner object
         Scanner input = new Scanner(System.in);
